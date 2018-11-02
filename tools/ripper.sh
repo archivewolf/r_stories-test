@@ -13,6 +13,8 @@ for line in $(cat $url_list); do
   cat .json | python3 -m json.tool > tmp && mv tmp .json;
   echo '['$timestamp']' Fix line endings...;
   dos2unix .json;
+  echo '['$timestamp']' Sleeping a little...;
+  sleep 2;
   echo '['$timestamp']' Done.;);
 done
 
