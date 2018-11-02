@@ -1,16 +1,16 @@
 [
     {
-        "kind": "Listing1",
+        "kind": "Listing",
         "data": {
             "modhash": "",
-            "dist": 2,
+            "dist": 1,
             "children": [
                 {
-                    "kind": "t8",
+                    "kind": "t3",
                     "data": {
                         "approved_at_utc": null,
                         "subreddit": "stories",
-                        "selftext": "I felt that these three things should be in a post stickied in the top of the sub, but as I wanted to do separated posts to announce new things to you, I would like to decided it was better to put them all together.\n\n\n\n&gt;###Discord Server\n\n\nRules\n\n1) Don't be rude or disrespectful\n\n2) Don't spam\n\n3) Don't promote your website/youtube channel/etc\n\n\n[Discord server link](https://discord.gg/3D23V77)\n\n\n\n&gt;###The Rules\n* **1)** Follow [reddiquette.](https://www.reddit.com/wiki/reddiquette) Behaviour contrary to reddiquette is not allowed. \n* **2)** TIFU posts will be removed. You know where to post them.\n* **3)** Harassment of others is forbidden.\n* **4)** [Walls of text](http://www.urbandictionary.com/define.php?term=wall+of+text) may be removed.\n* **5)** [Doxxing](http://www.urbandictionary.com/define.php?term=doxxing) will not be accepted.\n* **6)** Spams will be removed\n* **7)**  [Only promote your website if you tell a story on your post](https://www.reddit.com/r/stories/comments/7xrxsh/rule_7_will_change/?ref=share&amp;ref_source=link)\n\nThe rules may be updated at any time.\n\n\n\n&gt;###Suggestions\n\n\nSo, if you have any suggestion, critic, etc about the subreddit, you can feel free comment it in comments section of this post.\n\n\n\n^Thank ^you ^for ^reading",
+                        "selftext": "I felt that these three things should be in a post stickied in the top of the sub, but as I wanted to do separated posts to announce new things to you, I decided it was better to put them all together.\n\n\n\n&gt;###Discord Server\n\n\nRules\n\n1) Don't be rude or disrespectful\n\n2) Don't spam\n\n3) Don't promote your website/youtube channel/etc\n\n\n[Discord server link](https://discord.gg/3D23V77)\n\n\n\n&gt;###The Rules\n* **1)** Follow [reddiquette.](https://www.reddit.com/wiki/reddiquette) Behaviour contrary to reddiquette is not allowed. \n* **2)** TIFU posts will be removed. You know where to post them.\n* **3)** Harassment of others is forbidden.\n* **4)** [Walls of text](http://www.urbandictionary.com/define.php?term=wall+of+text) may be removed.\n* **5)** [Doxxing](http://www.urbandictionary.com/define.php?term=doxxing) will not be accepted.\n* **6)** Spams will be removed\n* **7)**  [Only promote your website if you tell a story on your post](https://www.reddit.com/r/stories/comments/7xrxsh/rule_7_will_change/?ref=share&amp;ref_source=link)\n\nThe rules may be updated at any time.\n\n\n\n&gt;###Suggestions\n\n\nSo, if you have any suggestion, critic, etc about the subreddit, you can feel free comment it in comments section of this post.\n\n\n\n^Thank ^you ^for ^reading",
                         "user_reports": [],
                         "saved": false,
                         "mod_reason_title": null,
@@ -27,11 +27,11 @@
                         "hide_score": false,
                         "name": "t3_86wco7",
                         "quarantine": false,
-                        "link_flair_text_color": "light",
-                        "upvote_ratio": 0.8,
+                        "link_flair_text_color": "dark",
+                        "upvote_ratio": 0.81,
                         "author_flair_background_color": "",
                         "subreddit_type": "public",
-                        "ups": 12,
+                        "ups": 13,
                         "domain": "self.stories",
                         "media_embed": {},
                         "author_flair_template_id": null,
@@ -44,7 +44,7 @@
                         "secure_media_embed": {},
                         "link_flair_text": null,
                         "can_mod_post": false,
-                        "score": 666,
+                        "score": 13,
                         "approved_by": null,
                         "thumbnail": "",
                         "edited": false,
@@ -101,7 +101,7 @@
                         "whitelist_status": null,
                         "stickied": true,
                         "url": "https://www.reddit.com/r/stories/comments/86wco7/discord_server_the_rules_and_suggestions_thread/",
-                        "subreddit_subscribers": 7162,
+                        "subreddit_subscribers": 7163,
                         "created_utc": 1521928832.0,
                         "mod_reports": [],
                         "is_video": false
