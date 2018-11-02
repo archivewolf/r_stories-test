@@ -11,8 +11,8 @@ done
 
 #commit this run
 (cd ..; # move to repo base folder
-git status;
-#git add .;
-#git commit -m "Updated www.reddit.com/r/stories/" -m ""$(cat $url_list)""
-#git push origin master
+#git status;
+git add .;
+git commit -m "Updated www.reddit.com/r/stories/" -m ""$(cat tools/$url_list)"";
+git push origin master;
 );
