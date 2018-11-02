@@ -1,18 +1,22 @@
 url_list=$1
 
 for line in $(cat $url_list); do
-echo $line;
-(cd ..; #change to repo base
-wget -m $line.json && cd $line;
-cat .json | python3 -m json.tool > tmp && mv tmp .json;
-dos2unix .json;
-echo Done with this one.);
+  timestamp=$(date +%s);
+  echo '['$timestamp']' Working on $line;
+  (cd ..; #change to repo base
+  echo '['$timestamp']' Getting json file...;
+  wget -m $line.json && cd $line;
+  echo '['$timestamp']' Changed to dir: $(pwd);
+  echo '['$timestamp']' Beautify json...;
+  cat .json | python3 -m json.tool > tmp && mv tmp .json;
+  echo '['$timestamp']' Fix line endings...;
+  dos2unix .json;
+  echo '['$timestamp']' Done.;);
 done
 
 #commit this run
-(cd ..; # move to repo base folder
-#git status;
+cd ..; # move to repo base folder
+echo '['$timestamp']' Commiting this run...;
 git add .;
-git commit -m "Updated www.reddit.com/r/stories/" -m ""$(cat tools/$url_list)"";
+git commit -m "Updated www.reddit.com/r/incest/" -m ""$(cat tools/$url_list)"";
 git push origin master;
-);
